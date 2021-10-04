@@ -1,0 +1,109 @@
+body{
+ 	background-color: #F7D5DE ;
+ 	font-family: courier new, monospace;
+ }
+
+.moyaolivka {
+	color: purple;
+	font-size: 45px;
+	text-align: center;
+	font-family: courier new, monospace;
+}
+
+.olivka13{
+	text-align: center;
+}
+
+
+.container {
+background-color: #F7CECE;
+font-size: 23px;
+text-align: center;
+}
+
+
+
+.container2{
+background-color:#F7D5DE ;
+font-size: 22px;
+text-align: center;
+}
+
+.olivka5{
+	text-align: center;
+}
+
+
+
+
+
+
+*,*:before,*:after{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box ;
+}
+
+
+
+.container3{
+background-color: #F7CECE;
+font-size: 22px;
+text-align: center;
+height: 100%;
+padding: 50px;
+}
+
+
+
+.slider__item {
+text-align: center;
+}
+
+.slick-track {
+display: flex;
+}
+
+.slick-list {
+overflow: hidden;
+}
+
+.slider {
+position: relative;
+padding: 0px 60px;
+margin-top: 50px;
+}
+
+.slick-arrow {
+position: absolute;
+top: 50%;
+z-index: 10;
+font-size: 0;
+}
+
+.slick-dots {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: -40px;
+}
+
+.slick-dots li {
+list-style: none;
+margin: 0px 10px;
+}
+
+.slick-dots button {
+font-size: 0;
+width: 10px;
+height: 13px;
+background-color: #fff;
+border-radius: 50%;
+border: 0;
+}
+
+.slick-dots li.slick-active button {
+background-color: #afbcc4;
+border: 1px solid #fff;
+}
